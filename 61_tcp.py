@@ -37,7 +37,7 @@ import socket, threading, time
 ##========== 以下模仿client/server对话 ===============
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM);
 # 监听端口
-s.bind(('127.0.0.1', 9998))
+s.bind(('127.0.0.1', 9997))
 s.listen(5); # 最大连接数
 print('Waiting for connection...');
 
